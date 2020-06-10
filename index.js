@@ -21,8 +21,8 @@ else{
 var randomDiceImage1 = "dice" + randomNumber1 + ".png";
 var randomDiceImage2 = "dice" + randomNumber2 + ".png";
 
-var randomImageSource1 = "C:/Users/arunm/Documents/WebDev_Projects/Dicee_Challenge/images/" + randomDiceImage1;
-var randomImageSource2 = "C:/Users/arunm/Documents/WebDev_Projects/Dicee_Challenge/images/" + randomDiceImage2;
+var randomImageSource1 = "images/" + randomDiceImage1;
+var randomImageSource2 = "images/" + randomDiceImage2;
 
 
 var diceImage1 = document.querySelectorAll("img")[0]
