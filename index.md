@@ -15,12 +15,12 @@
 
       <div class="dice">
         <p>Player 1</p>
-        <img class="img1" src="C:/Users/arunm/Documents/WebDev_Projects/Dicee_Challenge/images/dice1.png">
+        <img class="img1" src="images/dice1.png">
       </div>
 
       <div class="dice">
         <p>Player 2</p>
-        <img class="img2" src="C:/Users/arunm/Documents/WebDev_Projects/Dicee_Challenge/images/dice2.png">
+        <img class="img2" src="images/dice2.png">
       </div>
 
     </div>
