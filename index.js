@@ -2,20 +2,18 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1 ;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1 ;
 
-var decisionHeading = document.getElementsByTagName("h1")[0].innerText
-
 if(randomNumber1 > randomNumber2){
 	//alert("1 wins");
-	document.getElementsByTagName("h1")[0].innerText = "Player 1 wins!!!"
+	document.querySelector("h1")[0].innerHTML= "Player 1 wins!!!"
 
 }
 else if(randomNumber2 > randomNumber1){
 	//alert("2 wins");
-	document.getElementsByTagName("h1")[0].innerText = "Player 2 wins!!!"
+	document.querySelector("h1")[0].innerHTML = "Player 2 wins!!!"
 }
 else{
 	//alert("Tie!!!");
-	document.getElementsByTagName("h1")[0].innerText = "It's a tie!!!"
+	document.querySelector("h1")[0].innerHTML = "It's a tie!!!"
 }
 
 var randomDiceImage1 = "dice" + randomNumber1 + ".png";
