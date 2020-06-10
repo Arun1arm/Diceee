@@ -1,0 +1,2 @@
+# Diceee
+Noob Javascript Experiment
